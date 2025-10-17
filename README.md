@@ -3,6 +3,11 @@
 ## 📰 News
 - 🚨 **The whole ICCV 2025 papers with Codes are summarized on [ICCV2025_ABSTRACT/](https://hongsong-wang.github.io/ICCV2025_ABSTRACT/)**
 
+
+![Comparison of least bit-planes between real images and AI-generated images.](images/intro_00.png)
+
+![Overview of our method](images/method_00.png)
+
 **Novel solution for AI-generated image detection**: We innovatively address AI-generated image detection based on bit-planes, and propose an efficient approach for noisy representation extraction. 
 
 **Efficientpipeline design**: We propose a simple yet effec tive pipeline with three modules: noise generation, patch selection and classification. We design a heuristic strategy called maximum gradient patch selection and introduce two effective classifiers: noise-based classifier and noise guided classifier. Our approach operates at millisecond level, nearly a hundred times faster than current methods. 
