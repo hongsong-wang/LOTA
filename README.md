@@ -4,9 +4,18 @@
 - 🚨 **The whole ICCV 2025 papers with Codes are summarized on [ICCV2025_ABSTRACT/](https://hongsong-wang.github.io/ICCV2025_ABSTRACT/)**
 
 
-![Comparison of least bit-planes between real images and AI-generated images.](images/intro_00.png)
+<p align="center">
+  <img src="images/intro_00.png" width="60%">
+<br>
+  <b>Figure 1: Comparison of least bit-planes between real images and AI-generated images.</b>
+</p>
 
-![Overview of our method](images/method_00.png)
+
+<p align="center">
+  <img src="images/method_00.png" width="80%">
+<br>
+  <b>Figure 2: Overview of our method.</b>
+</p>
 
 **Novel solution for AI-generated image detection**: We innovatively address AI-generated image detection based on bit-planes, and propose an efficient approach for noisy representation extraction. 
 
