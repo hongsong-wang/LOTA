@@ -1,6 +1,7 @@
 # [LOTA: Bit-Planes Guided AI-Generated Image Detection](https://openaccess.thecvf.com//content/ICCV2025/papers/Wang_LOTA_Bit-Planes_Guided_AI-Generated_Image_Detection_ICCV_2025_paper.pdf), [arXiv](https://arxiv.org/abs/2510.14230)
 
-## The whole ICCV 2025 papers with Codes are summarized on [ICCV2025_ABSTRACT/](https://hongsong-wang.github.io/ICCV2025_ABSTRACT/)
+## 📰 News
+- 🚨 **The whole ICCV 2025 papers with Codes are summarized on [ICCV2025_ABSTRACT/](https://hongsong-wang.github.io/ICCV2025_ABSTRACT/)**
 
 **Novel solution for AI-generated image detection**: We innovatively address AI-generated image detection based on bit-planes, and propose an efficient approach for noisy representation extraction. 
 
