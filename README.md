@@ -5,7 +5,7 @@
 
 
 <p align="center">
-  <img src="images/intro_00.png" width="60%">
+  <img src="images/intro_00.png" width="55%">
 <br>
   <b>Figure 1: Comparison of least bit-planes between real images and AI-generated images.</b>
 </p>
