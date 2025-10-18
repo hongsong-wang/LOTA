@@ -51,7 +51,7 @@ python test.py  --choice=[1, 1, 1, 1, 1, 1, 1, 1]
 Additionally, we provide the pretrained [weights](https://pan.baidu.com/s/1Eid3NYcsPC8ON7L90iM6Jg?pwd=srk3) (code: srk3) on Stable_Diffusion_v1.5 for evaluation. You can download the weights and easily evaluate LOTA on GenImage.
 
 ## Results
-We provide the evaluation results in Reulsts, which contains path_to_testing_images, true_label, predict_prob_real, and predict_prob_fake of all testing images in GenImage.
+We provide the evaluation results in [Reulsts](https://github.com/hongsong-wang/LOTA/tree/main/results), which contains path_to_testing_images, true_label, predict_prob_real, and predict_prob_fake of all testing images in GenImage.
 
 ## Acknowledgments
 This repository borrows partially from [CNNDetection](https://github.com/PeterWang512/CNNDetection), [PatchCraft](https://github.com/cvlcgabriel/PatchCraft) and [SSP](https://github.com/bcmi/SSP-AI-Generated-Image-Detection). Thanks for their work sincerely.
