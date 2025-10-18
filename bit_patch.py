@@ -14,19 +14,6 @@ def compute(patch):
     res = diff_horizontal + diff_vertical + diff_diagonal
     return res.sum()
 
-'''
-    low_three_bits = img_np & 0x07
-
-    # 将每个通道的0-7值映射到0-255
-    mapped_r = (low_three_bits[:, :, 0] * 255 // 7).astype(np.uint8)
-    mapped_g = (low_three_bits[:, :, 1] * 255 // 7).astype(np.uint8)
-    mapped_b = (low_three_bits[:, :, 2] * 255 // 7).astype(np.uint8)
-
-    # 组合成三通道图像
-    mapped_img = np.stack([mapped_r, mapped_g, mapped_b], axis=-1)
-'''
-
-
 def bit_patch(img, img_height, bit_mode, patch_size, patch_mode):
     img_np = np.array(img)
     #combined_image = None
@@ -37,14 +24,7 @@ def bit_patch(img, img_height, bit_mode, patch_size, patch_mode):
         blue_low3 = ((img_np[:, :, 2] & mask_low) * (255 // 7)).astype(np.uint8)
         combined_image = cv.merge((red_low3, green_low3, blue_low3))
     elif bit_mode == "thresholding":
-        mask_low3 = 0x07
-        red_channel = img_np[:, :, 0]
-        green_channel = img_np[:, :, 1]
-        blue_channel = img_np[:, :, 2]
-        red_low3 = ((red_channel & mask_low3) != 0).astype(np.uint8) * 255
-        green_low3 = ((green_channel & mask_low3) != 0).astype(np.uint8) * 255
-        blue_low3 = ((blue_channel & mask_low3) != 0).astype(np.uint8) * 255
-        combined_image = cv.merge((red_low3, green_low3, blue_low3))
+        combined_image=img_np  # To be modified
     else:
         raise ValueError(f"Unsupported bit_mode: {bit_mode}")
     h, w, _ = combined_image.shape
