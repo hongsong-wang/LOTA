@@ -29,7 +29,7 @@ def create_preprocessing_pipeline(options):
             )
         )
     else:
-        transform_func = transforms.Resize((256, 256))
+        transform_func = transforms.Resize((options.img_height, options.img_height))
 
     return transforms.Compose([
         transform_func,
