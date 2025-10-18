@@ -26,7 +26,7 @@
 
 **Efficientpipeline design**: We propose a simple yet effec tive pipeline with three modules: noise generation, patch selection and classification. We design a heuristic strategy called maximum gradient patch selection and introduce two effective classifiers: noise-based classifier and noise guided classifier. Our approach operates at millisecond level, nearly a hundred times faster than current methods. 
 
-**Exceedingly superior performance**: Extensive exper iments demonstrate the effectiveness of LOTA, which achieves 98.9% ACC onGenImage, showing great cross generator generalization capability and outperforming ex isting mainstream methods by more than 11.9%.
+**Exceedingly superior performance**: Extensive exper iments demonstrate the effectiveness of LOTA, which achieves 98.9% ACC onGenImage, showing great cross-generator generalization capability and outperforming existing mainstream methods by more than 11.9%.
 
 ## Dataset
 We use [GenImage](https://github.com/GenImage-Dataset/GenImage) for training and evaluation, which can be downloaded online. GenImage is composed of 8 subsets (BigGAN, Midjourney, Wukong, Stable_Diffusion_v1.4, Stable_Diffusion_v1.5, ADM, GLIDE, VQDM), each of which contains fake images and real images from ImageNet. Additionally, each subset are invided into training dataset and validating dataset, and we train LOTA on the training dataset of one subset (e.g., Stable_Diffusion_v1.5) and evaluate on the validating dataset of all subsets.
