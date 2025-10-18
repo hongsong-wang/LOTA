@@ -27,10 +27,31 @@
 ## Dataset
 We use [GenImage](https://github.com/GenImage-Dataset/GenImage) for training and evaluation, which can be downloaded online. GenImage is composed of 8 subsets (BigGAN, Midjourney, Wukong, Stable_Diffusion_v1.4, Stable_Diffusion_v1.5, ADM, GLIDE, VQDM), each of which contains fake images and real images from ImageNet. Additionally, each subset are invided into training dataset and validating dataset, and we train LOTA on the training dataset of one subset (e.g., Stable_Diffusion_v1.5) and evaluate on the validating dataset of all subsets.
 
-## Train
+## Training
+You can train the LOTA model on Stable_Diffusion_v1.5 of GenImage by running the following command:
+```
+python train.py --choice=[0, 0, 0, 0, 1, 0, 0, 0]
+                --image_root='Path/to/GenImage'
+                --save_path='Path/to/saved_weights'
+                --bit_mode='scaling'
+                --patch_size=32
+                --patch_mode='random'
+```
 
 ## Evaluation
-We provide the pretrained [weights](https://pan.baidu.com/s/1Eid3NYcsPC8ON7L90iM6Jg?pwd=srk3) (code:srk3) for evaluation.
+You can evaluate LOTA on all subsets of GenImage by running the following command:
+```
+python test.py  --choice=[1, 1, 1, 1, 1, 1, 1, 1]
+                --load='Path/to/saved_weights'
+                --image_root='Path/to/GenImage'
+                --bit_mode='scaling'
+                --patch_size=32
+                --patch_mode='max'
+```
+Additionally, we provide the pretrained [weights](https://pan.baidu.com/s/1Eid3NYcsPC8ON7L90iM6Jg?pwd=srk3) (code: srk3) on Stable_Diffusion_v1.5 for evaluation. You can download the weights and easily evaluate LOTA on GenImage.
+
+## Acknowledgments
+This repository borrows partially from [CNNDetection](https://github.com/PeterWang512/CNNDetection), [PatchCraft](https://github.com/cvlcgabriel/PatchCraft) and [SSP](https://github.com/bcmi/SSP-AI-Generated-Image-Detection). Thanks for their work sincerely.
 
 ```
 @InProceedings{Wang_2025_ICCV,
