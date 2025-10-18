@@ -1,5 +1,7 @@
 # [LOTA: Bit-Planes Guided AI-Generated Image Detection](https://openaccess.thecvf.com//content/ICCV2025/papers/Wang_LOTA_Bit-Planes_Guided_AI-Generated_Image_Detection_ICCV_2025_paper.pdf), [arXiv](https://arxiv.org/abs/2510.14230)
 
+## Contributors: Hongsong Wang (hongsongwang@seu.edu.cn), Renxi Cheng (renxi@seu.edu.cn), Jie Gui (guijie@seu.edu.cn), Southeast University, Nanjing, China
+
 ## 📰 News
 - 🚨 **The whole ICCV 2025 papers with Codes are summarized on [ICCV2025_ABSTRACT/](https://hongsong-wang.github.io/ICCV2025_ABSTRACT/)**
 - 🚨 **Paper Portal for Top Conferences in the Field of Artificial intelligence: [CV_Paper_Portal](https://hongsong-wang.github.io/CV_Paper_Portal/)**
