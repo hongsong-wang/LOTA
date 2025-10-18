@@ -27,6 +27,11 @@
 ## Dataset
 We use [GenImage](https://github.com/GenImage-Dataset/GenImage) for training and evaluation, which can be downloaded online. GenImage is composed of 8 subsets (BigGAN, Midjourney, Wukong, Stable_Diffusion_v1.4, Stable_Diffusion_v1.5, ADM, GLIDE, VQDM), each of which contains fake images and real images from ImageNet. Additionally, each subset are invided into training dataset and validating dataset, and we train LOTA on the training dataset of one subset (e.g., Stable_Diffusion_v1.5) and evaluate on the validating dataset of all subsets.
 
+## Train
+
+## Evaluation
+We provide the pretrained [weights](https://pan.baidu.com/s/1Eid3NYcsPC8ON7L90iM6Jg?pwd=srk3) (code:srk3) for evaluation.
+
 ```
 @InProceedings{Wang_2025_ICCV,
     author    = {Wang, Hongsong and Cheng, Renxi and Zhang, Yang and Han, Chaolei and Gui, Jie},
