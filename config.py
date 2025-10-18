@@ -12,7 +12,7 @@ class ConfigurationManager:
         # Training hyperparameters
         argument_parser.add_argument('--batchsize', type=int, default=64,
                                      help='Number of samples processed simultaneously')
-        argument_parser.add_argument('--choices', default=[0, 0, 0, 0, 1, 0, 0, 0],
+        argument_parser.add_argument('--choices', default=[1, 1, 1, 1, 1, 1, 1, 1],
                                      help='Dataset selection flags')
         argument_parser.add_argument('--epoch', type=int, default=30,
                                      help='Total training iterations')
@@ -24,13 +24,13 @@ class ConfigurationManager:
                                      default='/home/hdd1/chengrenxi/GenImage',
                                      help='Root directory for image datasets')
         argument_parser.add_argument('--save_path', type=str,
-                                     default='/home/hdd1/chengrenxi/sdv5_thresholding/',
+                                     default='/home/hdd1/chengrenxi/sdv5_thresholding2/',
                                      help='Directory for saving model outputs')
-        argument_parser.add_argument('--isPatch', action='store_false',
+        argument_parser.add_argument('--isPatch', type=bool, default=True,
                                      help='Enable patch processing mode')
         argument_parser.add_argument('--img_height', type=int, default=256,
                                      help='Target image height')
-        argument_parser.add_argument('--bit_mode', type=str, default='thresholding',
+        argument_parser.add_argument('--bit_mode', type=str, default='scaling',
                                      choices=['scaling', 'thresholding'],
                                      help='Bit plane processing method')
         argument_parser.add_argument('--patch_size', type=int, default=32,
