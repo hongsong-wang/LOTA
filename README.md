@@ -1,6 +1,6 @@
 # [LOTA: Bit-Planes Guided AI-Generated Image Detection](https://openaccess.thecvf.com/content/ICCV2025/html/Wang_LOTA_Bit-Planes_Guided_AI-Generated_Image_Detection_ICCV_2025_paper.html),&nbsp;&nbsp;   [ICCV25_Published](https://openaccess.thecvf.com//content/ICCV2025/papers/Wang_LOTA_Bit-Planes_Guided_AI-Generated_Image_Detection_ICCV_2025_paper.pdf), &nbsp;&nbsp;[arXiv](https://arxiv.org/abs/2510.14230)
 
-**Contributors: Hongsong Wang (hongsongwang@seu.edu.cn), Renxi Cheng (renxi@seu.edu.cn), Jie Gui (guijie@seu.edu.cn)**
+**Contributors: Hongsong Wang (hongsongwang@seu.edu.cn), Renxi Cheng (renxi@seu.edu.cn)**
 
 **Southeast University, Nanjing, China**
 
