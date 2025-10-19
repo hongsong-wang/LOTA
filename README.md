@@ -52,7 +52,7 @@ python test.py  --choice=[1, 1, 1, 1, 1, 1, 1, 1]
                 --patch_size=32
                 --patch_mode='max'
 ```
-Additionally, we provide the pretrained weights trained on [Stable_Diffusion_v1.4](https://pan.baidu.com/s/1H0IceEHzpB_ADh5J487bkA?pwd=imjw) (code: imjw) and [Stable_Diffusion_v1.5]([https://pan.baidu.com/s/1H0IceEHzpB_ADh5J487bkA?pwd=imjw](https://pan.baidu.com/s/1h9qN-tWjZrXT1wQsHhZBpw?pwd=a942)) (code: a942) for evaluation. You can download the weights and easily evaluate LOTA on GenImage.
+Additionally, we provide the pretrained weights trained on [Stable_Diffusion_v1.4](https://pan.baidu.com/s/1H0IceEHzpB_ADh5J487bkA?pwd=imjw) (code: imjw) and [Stable_Diffusion_v1.5](https://pan.baidu.com/s/1h9qN-tWjZrXT1wQsHhZBpw?pwd=a942) (code: a942) for evaluation. You can download the weights and easily evaluate LOTA on GenImage.
 
 ## Results
 We provide the evaluation results in [Results](https://github.com/hongsong-wang/LOTA/tree/main/results), which contains path_to_testing_images, true_label, predict_prob_real, and predict_prob_fake of all testing images in GenImage.
