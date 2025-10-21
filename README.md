@@ -24,7 +24,7 @@
 
 **Novel solution for AI-generated image detection**: We innovatively address AI-generated image detection based on bit-planes, and propose an efficient approach for noisy representation extraction. 
 
-**Efficientpipeline design**: We propose a simple yet effec tive pipeline with three modules: noise generation, patch selection and classification. We design a heuristic strategy called maximum gradient patch selection and introduce two effective classifiers: noise-based classifier and noise guided classifier. Our approach operates at millisecond level, nearly a hundred times faster than current methods. 
+**Efficient pipeline design**: We propose a simple yet effec tive pipeline with three modules: noise generation, patch selection and classification. We design a heuristic strategy called maximum gradient patch selection and introduce two effective classifiers: noise-based classifier and noise guided classifier. Our approach operates at millisecond level, nearly a hundred times faster than current methods. 
 
 **Exceedingly superior performance**: Extensive exper iments demonstrate the effectiveness of LOTA, which achieves 98.9% ACC onGenImage, showing great cross-generator generalization capability and outperforming existing mainstream methods by more than 11.9%.
 
