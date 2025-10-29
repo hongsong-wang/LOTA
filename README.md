@@ -1,5 +1,7 @@
 # [LOTA: Bit-Planes Guided AI-Generated Image Detection](https://openaccess.thecvf.com/content/ICCV2025/html/Wang_LOTA_Bit-Planes_Guided_AI-Generated_Image_Detection_ICCV_2025_paper.html),&nbsp;&nbsp;   [ICCV25_Published](https://openaccess.thecvf.com//content/ICCV2025/papers/Wang_LOTA_Bit-Planes_Guided_AI-Generated_Image_Detection_ICCV_2025_paper.pdf), &nbsp;&nbsp;[arXiv](https://arxiv.org/abs/2510.14230)
 
+[**ICCV 2025 | 东南大学等提出LOTA：火眼金睛新范式，从“噪声”中秒速揪出AI生成图，准确率达98.9%**](https://zhuanlan.zhihu.com/p/1962570940903823034) (PS: 本报道由“我爱计算机视觉”编辑撰写，我们虽未向任何自媒体平台投稿，但欢迎翻译和宣传该工作，注明出处即可，谢谢)
+
 **Contributors: Hongsong Wang (hongsongwang@seu.edu.cn), Renxi Cheng (renxi@seu.edu.cn)**
 
 **Southeast University, Nanjing, China**
